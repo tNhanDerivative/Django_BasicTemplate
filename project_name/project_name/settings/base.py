@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    # 'django.contrib.staticfiles',
 
 ]
 
@@ -139,8 +139,8 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
     ]
 
-MEDIA_ROOT = os.path.join(BASE_DIR.parent, 'media_root')
-STATIC_ROOT = os.path.join(BASE_DIR.parent, 'static_root')
+MEDIA_ROOT = os.path.join(BASE_DIR.parent, 'MEDIA_ROOT')
+STATIC_ROOT = os.path.join(BASE_DIR.parent, 'STATIC_ROOT')
 
 
 # Default primary key field type
